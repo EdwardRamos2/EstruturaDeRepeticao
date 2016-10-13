@@ -34,7 +34,7 @@ while salario < 1:
 print("(+) Salario ok: %r" % salario)
 
 while sexo != 'f'  and sexo != 'm':
-  sexo = input('Sexo: m - Masculino f - Feminino')
+  sexo = input('Sexo: m - Masculino f - Feminino:')
 if 'm' in sexo: 
     print("(+) Sexo Masculino: %s" % sexo)
 if 'f' in sexo:
@@ -42,7 +42,7 @@ if 'f' in sexo:
 
 
 while civil != 's'  and civil != 'c' and civil != 'v' and civil != 'd':
-   civil = input("Estado Civil: 's', 'c', 'v', 'd'")
+   civil = input("Estado Civil: 's - Solteiro', 'c - Casado', 'v - Viuvo', 'd - Divorsiado'")
    
 if 's' in civil:
     print("(+) Estado civil: SOLTEIRO: %s" % civil)
