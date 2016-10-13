@@ -35,8 +35,10 @@ print("(+) Salario ok: %r" % salario)
 
 while sexo != 'f'  and sexo != 'm':
   sexo = input('Sexo: m - Masculino f - Feminino')
-if 'f' in sexo or 'm' in sexo:
-    print("(+) Sexo ok: %s" % sexo)
+if 'm' in sexo: 
+    print("(+) Sexo Masculino: %s" % sexo)
+if 'f' in sexo:
+    print("(+) Sexo Feminino: %s" % sexo)
 
 
 while civil != 's'  and civil != 'c' and civil != 'v' and civil != 'd':
