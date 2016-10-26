@@ -11,10 +11,7 @@
 
 
 populacaoA,populacaoB,anos  = 80000, 200000, 0
-print(populacaoA,populacaoB,anos)
 crescimentoA,crescimentoB = 0.03, 0.015
-print(crescimentoA,crescimentoB)
-
 while populacaoA < populacaoB:
     anos += 1
     populacaoA = populacaoA + (populacaoA * crescimentoA)
