@@ -4,10 +4,10 @@
 #Date: 10/12/2016 U.S.A
 
 
-
-#Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, 
-#mostrando uma mensagem de erro e voltando a pedir as informações. 
-
+"""
+Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, 
+mostrando uma mensagem de erro e voltando a pedir as informações. 
+"""
 
 usuario = input("Nome usuario: ")
 senha = input("Senha usuario: ")
