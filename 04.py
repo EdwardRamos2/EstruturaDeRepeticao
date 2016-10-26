@@ -16,7 +16,8 @@ while populacaoA < populacaoB:
     anos += 1
     populacaoA = populacaoA + (populacaoA * crescimentoA)
     populacaoB = populacaoB + (populacaoB * crescimentoB)
-    print('Em %d  a populacao A ira ultrapassar a populacaoB' % anos) 
-    print('Quantidade da populacao A e %r' % populacaoA)
-    print('Quantidade da populacao B e %r' % populacaoB) 
+    if populacaoA >= populacaoB:   
+        print('Em %d  a populacao A ira ultrapassar a populacaoB' % anos) 
+        print('Quantidade da populacao A e %r' % populacaoA)
+        print('Quantidade da populacao B e %r' % populacaoB) 
 
