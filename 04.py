@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 #*-*coding: utf-8 *-*
 #Autor: EdwardRamos
-#Date: 10/04/2016 U.S.A
+#Date: 10/25/2016 U.S.A
 
 
 #Supondo que a população de um país A seja da ordem de 80000 habitantes com uma taxa anual de crescimento de 3% 
